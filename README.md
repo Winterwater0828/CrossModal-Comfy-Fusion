@@ -25,8 +25,7 @@ CrossModal-Comfy-Fusion/
 │   ├── Flux2-Klein_00001_.png        # Flux.2 生成图像样例1
 │   ├── Flux2-Klein_00002_.png        # Flux.2 生成图像样例2
 │   ├── Flux2-Klein_00003_.png        # Flux.2 生成图像样例3
-│   ├── 猫爬架.jpg                    # 测试图像
-│   └── testp1.jpg                    # 测试图像
+│   └── 猫爬架.jpg                     # 测试图像
 ├── 📝 教程文档/
 │   └── 教程_搭建Flux2工作流 → 对接runninghub训练...  # Flux2 工作流搭建教程
 └── 🛠️ ComfyUI 核心（基于官方源码）
@@ -77,9 +76,13 @@ pip install -r requirements.txt
 
 以下是使用 Flux.2 工作流生成的图像样例：
 
-| 样例1 | 样例2 | 样例3 |
+| 样例1 | 样例2 |
 |:---:|:---:|:---:|
-| ![样例1](Flux2-Klein_00001_.png) | ![样例2](Flux2-Klein_00002_.png) | ![样例3](Flux2-Klein_00003_.png) |
+| ![样例1](Flux2-Klein_00001_.png) | ![样例2](Flux2-Klein_00002_.png) |
+
+## 🎨 物体替换对比展示
+| 原图-猫爬架 | 生成-狗狗 |
+![原图-猫爬架](猫爬架_.png) |![生成-狗狗](Flux2-Klein_00003_.png) |
 
 ## 📝 使用说明
 
